@@ -33,14 +33,16 @@ We have tested this code with the following configuration:
 For 30 tasks, run the following commands. 
 
 ```
-python permuted_minst/train.py
-python permuted_mnist/'Basic graph Permuted MNIST.py'
+cd permuted_minst
+python train.py
+python 'Basic graph Permuted MNIST.py'
 ```
 
 For 100 tasks, run the following commands. 
 
 ```
-python permuted_minst/train_100.py
-python permuted_mnist/'Basic graph Permuted MNIST.py'
+cd permuted_minst
+python train_100.py
+python 'Basic graph Permuted MNIST.py'
 ```
 
