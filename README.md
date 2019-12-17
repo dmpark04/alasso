@@ -28,6 +28,9 @@ We have tested this code with the following configuration:
 * Tensorflow 1.13.1
 * Keras 2.0.5
 
+## How to get source codes
+git clone https://github.com/dmpark04/alasso.git
+
 ## How to run
 
 For 30 tasks, run the following commands. 
