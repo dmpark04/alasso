@@ -29,7 +29,9 @@ We have tested this code with the following configuration:
 * Keras 2.0.5
 
 ## How to get source codes
+```
 git clone https://github.com/dmpark04/alasso.git
+```
 
 ## How to run
 
