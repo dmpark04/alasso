@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Continual learning by asymmetric loss approximation with single-side overestimation | alasso</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Continual learning by asymmetric loss approximation with single-side overestimation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Code to accompany our paper “Continual learning by asymmetric loss approximation with single-side overestimation” ICCV 2019" />
+<meta property="og:description" content="Code to accompany our paper “Continual learning by asymmetric loss approximation with single-side overestimation” ICCV 2019" />
+<link rel="canonical" href="https://dmpark04.github.io/alasso/" />
+<meta property="og:url" content="https://dmpark04.github.io/alasso/" />
+<meta property="og:site_name" content="alasso" />
+
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://dmpark04.github.io/alasso/","name":"alasso","headline":"Continual learning by asymmetric loss approximation with single-side overestimation","description":"Code to accompany our paper “Continual learning by asymmetric loss approximation with single-side overestimation” ICCV 2019","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/alasso/assets/css/style.css?v=b213d72edea780b75690efe8255fdfc9947f17a0">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://dmpark04.github.io/alasso/">alasso</a></h1>
+      
+
+      <h1 id="continual-learning-by-asymmetric-loss-approximation-with-single-side-overestimation">Continual learning by asymmetric loss approximation with single-side overestimation</h1>
+
+<p>This repository ( https://github.com/dmpark04/alasso ) contains code to reproduce the key findings of:</p>
+
+<p>Park, D., Hong, S., Han, B., &amp; Lee, K. M. (2019). Continual learning by asymmetric loss approximation 
+with single-side overestimation. 
+In Proceedings of the IEEE International Conference on Computer Vision (pp. 3335-3344).</p>
+
+<p>http://openaccess.thecvf.com/content_ICCV_2019/html/Park_Continual_Learning_by_Asymmetric_Loss_Approximation_With_Single-Side_Overestimation_ICCV_2019_paper.html</p>
+
+<h2 id="bibtex">BibTeX</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{park2019continual,
+  title={Continual learning by asymmetric loss approximation with single-side overestimation},
+  author={Park, Dongmin and Hong, Seokil and Han, Bohyung and Lee, Kyoung Mu},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={3335--3344},
+  year={2019}
+}
+</code></pre></div></div>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>We have tested this code with the following configuration:</p>
+
+<ul>
+  <li>Python 3.6.9</li>
+  <li>Tensorflow 1.13.1</li>
+  <li>Keras 2.0.5</li>
+</ul>
+
+<h2 id="how-to-get-source-codes">How to get source codes</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/dmpark04/alasso.git
+</code></pre></div></div>
+
+<h2 id="how-to-run">How to run</h2>
+
+<p>For 30 tasks, run the following commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd permuted_minst
+python train.py
+python 'Basic graph Permuted MNIST.py'
+</code></pre></div></div>
+
+<p>For 100 tasks, run the following commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd permuted_minst
+python train_100.py
+python 'Basic graph Permuted MNIST.py'
+</code></pre></div></div>
+
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/dmpark04/alasso/edit/master/README.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
