@@ -1,6 +1,6 @@
 # Continual learning by asymmetric loss approximation with single-side overestimation
 
-This repository contains code to reproduce the key findings of:
+This repository ( https://github.com/dmpark04/alasso ) contains code to reproduce the key findings of:
 
 Park, D., Hong, S., Han, B., & Lee, K. M. (2019). Continual learning by asymmetric loss approximation 
 with single-side overestimation. 
